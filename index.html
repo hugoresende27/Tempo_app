@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <title>Document</title>
+    <title>JS HR tempo app</title>
 </head>
 <body>
 <div class="conteudo">
         <div class="app_titulo">
             <p> Informação do Tempo </p>
-            <input type="text" id="procurar" placeholder="Escreva a cidade" autocomplete="off"/>
+
+
+            <input class='inputValor' type="text" id="procurar" placeholder="Escreva a cidade" autocomplete="off"/>
 
             <div class="local-icon">
-                <img src="icons/local.png" alt="local">
-
+                <img class='button' src="icons/local.png" alt="local">
+                
 
             </div>
         </div>
@@ -28,17 +30,25 @@
         
 
         <div class="temperatura">
-            <p>- *<span>C</span></p>
+            <p class='tempo'>- *</p><span>C</span>
         </div>
         <div class="temperatura-desc">
-            <p>- </p>
+            <p class='desc'>- </p>
         </div>
         <div class="local">
-            <p> - </p>
+            <p class='nome'> - </p>
         </div>
     </div>
 </div>
     
-    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <footer>
+        <p>Copyright 2021 - by Hugo Resende Products </p>
+        <a href="https://www.linkedin.com/in/hugo-resende-781ab1111/" target="blank"> LinkedIn </a> | <a href="https://github.com/hugoresende27" target="blank"> GitHub </a>
+    <script>
+        document.write("<p>Hoje é dia "+ Date());
+    </script>
+    
+    </footer>
 </body>
 </html>

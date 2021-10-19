@@ -1,0 +1,52 @@
+
+*{/* MARGENS 0 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;              /*CENTRAR CONTEUDO*/
+    display: flex;              /*CENTRAR CONTEUDO*/
+    justify-content: center;    /*CENTRAR CONTEUDO*/
+    flex-direction: column;     /*CENTRAR CONTEUDO*/
+    align-items: center;        /*CENTRAR CONTEUDO*/
+    background: linear-gradient(rgb(18, 151, 240),rgb(24, 6, 126));/*background gradação de cores*/
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.local, .temperatura
+{
+    height: 30vh;       /*altura da div */
+    width: 50%;         /*div ocupa 50% do ecra*/
+    display: flex;
+    justify-content: space-around; /*espaço entre timezone e icone*/
+    align-items: center;
+ 
+}
+
+.temperatura
+{
+    flex-direction: column; /*para descer uma div para baixo da outra*/
+}
+
+.graus-seccao
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.graus-seccao span
+{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.graus-seccao h2
+{
+    font-size: 40px;
+}

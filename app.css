@@ -142,3 +142,52 @@ div.relativo{
     top: 600px;
     right: 120px;
 }
+
+.input 
+{
+    text-align: center;
+}
+
+::placeholder 
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(120, 121, 114);
+    opacity: 1; /* Firefox */
+}
+
+input[type="text"]
+{
+    height: 10vh;
+    width: 50%;
+    font-family: "Nunito", sans-serif;
+    background: rgb(8, 6, 126);
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+
+/*estilos do footer */
+
+footer{
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    clear: both;
+    text-align: center;
+    border-top: 1px dashed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    
+}
+
+footer a{
+   color: #000000;  /*cor dos links a preto*/
+   text-decoration: none;     /*retira o sublinhado dos links*/
+  
+}
+
+footer a:hover{
+    color: red;
+}
